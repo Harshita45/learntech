@@ -1,0 +1,23 @@
+.courses-head{
+    display: flex;
+    flex-wrap: wrap;
+}
+.courses h1{
+    padding-left: 60px;
+    display: block;
+    font-size: 32px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.courses-icon{
+    display: flex;
+    flex-wrap: wrap;
+}
+.courses-icon p{
+    padding-left: 10px;
+    font-size: 14px;
+}
+.hotcourses{
+    margin-top: 50px;
+}

@@ -1,0 +1,26 @@
+.ameer iframe{
+    max-width: 100%;
+    height: 450px;
+}
+.add{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+.add h3{
+    font-size: 42px;
+    font-weight: 700;
+}
+.add h5{
+    font-size: 22px;
+    font-weight: 600;
+}
+.add p{
+    font-size: 18px;
+    line-height: 30px;
+    padding-left: 0;
+}
+.ameer-color{
+    background-color: #f4f4f4;
+}

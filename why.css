@@ -1,0 +1,54 @@
+.con-img{
+    background-image: url(assets/Your\ paragraph\ text.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+.boxes{
+    animation-name: pulse;
+    animation-duration: 1s;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border: 0px solid rgba(130, 130, 130, 1);
+    border-radius: 10px;
+    width: 320px;
+    height: 100%;
+    padding: 5px;
+}
+.box-img img{
+    width: 100px;
+     padding-right: 20px;
+   
+}
+.box-para{
+    padding-top: 20px;
+}
+.box-para p{
+    font-size: 15px;
+}
+.choose{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+.why-para{
+    background-color: #f4f4f4;
+    height:100%;
+    padding-bottom: 30px;
+}
+.whychoose h1{
+    font-family: Roboto Slab;
+}
+.whychoose p{
+    line-height: 30px;
+    font-size: 18px;
+}
+.whychoose-2 p{
+    line-height: 30px;
+    font-size: 18px;
+    padding-left: 50px;
+}

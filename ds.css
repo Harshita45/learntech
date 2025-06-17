@@ -1,0 +1,132 @@
+body{
+  font-family: Poppins;
+  color: black;
+}
+.about{
+    background-color: #f4f4f4; 
+}
+.about-text h2,h5{
+  padding-left: 30px;
+  padding-bottom: 10px;
+}
+.about-text p{
+    line-height: 30px;
+}
+.form-group {
+  margin-bottom: 1rem;
+  margin-left: 50px;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+input, textarea , select{
+  width: 90%;
+  padding: 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.875rem;
+  display: none;
+}
+
+.submit-button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 150px;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #2E7D32;
+  color: white;
+}
+.about-text-h2{
+    padding-top: 20px;
+}
+.ds-icons img{
+    width: 140px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+.ds-icons{
+    display: flex;
+    flex-wrap: wrap;
+}
+.ds-info{
+    width: 600px;
+}
+.ds-para{
+    font-size: 19px;
+    font-weight: 600;
+}
+.card-title{
+  padding-top: 10px;
+  padding-left: 0;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+.ds-text{
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 10px;
+}
+.ds-text i{
+  font-size: 20px;
+}
+.ds-text p{
+  font-size: 17px;
+  padding-left: 10px;
+}
+.btn-color{
+  background-color: #28a745;
+  color: white;
+  width: 150px;
+}
+.btn-color:hover{
+  background-color: #2E7D32;
+  color: white;
+}
+.pre-sec{
+  background-color: #f4f4f4; 
+}
+.pre-req{
+  text-align: center;
+}
+.pre-req h2{
+  padding-bottom: 30px;
+}
+.pre-req p{
+  padding-left: 120px;
+  padding-right: 120px;
+  text-align: justify;
+  line-height: 30px;
+}
+.curriculum-sec{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.accordion-header .accordion-button{
+  font-size: 20px;
+}

@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="courses.css">
+</head>
+<body>
+    <section class="container-fluid px-5">
+        <nav class="navbar navbar-expand-xl">
+            <a class="navbar-brand navhead" href="home.html">
+                <img src="assets/logo.jpg" alt="" style="width: 250px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarOffcanvasLg" aria-labelledby="navbarOffcanvasLgLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </div>
+                  <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                      <li class="nav-item" >
+                        <a class="nav-link active nav-color" aria-current="page" href="home.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link nav-color" href="courses.html">Courses</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link nav-color" href="why.html">Why LearnTech?</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle nav-color" href="branches.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Our Branches
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item nav-color" href="ameerpet.html">Ameerpet</a></li>
+                          <li><a class="dropdown-item nav-color" href="kphb.html">KPHB Colony</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link nav-color" href="contact.html">Contact Us</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link nav-color" href="batches.html">Upcoming Batches</a>
+                      </li>
+                      <li class="nav-item">
+                        <button class="btn ban-button px-2"><a class="nav-link" href="demo.html">Request Demo</a></button>
+                      </li>
+                    </ul>
+                  </div>
+            </div>
+        </nav>
+    </section>
+    <section class="container pt-5">
+      <div class="courses">
+        <div class="row">
+          <h1>Trending Courses</h1>
+          <div class="courses-head ">
+            <div class="col-md-3 col-lg-4 col-xxl-3 px-5 pt-5">
+              <div class="card" style="width: 18rem;">
+                <img src="assets/datascience.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Data Science</h5>
+                  <div class="courses-icon">
+                    <i class="bi bi-mortarboard"></i>
+                    <p>Online/On Campus</p>
+                  </div>
+                  <div class="courses-icon">
+                    <i class="bi bi-person-video3"></i>
+                    <p>Industry Curriculum</p>
+                  </div>
+                  <div class="courses-icon">
+                    <i class="bi bi-person-video"></i>
+                    <p>Mock Interviews</p>
+                  </div>
+                  <a href="ds.html" class="btn btn-primary">View Details</a> 
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-lg-4 px-5 col-xxl-3 pt-5">
+              <div class="card" style="width: 18rem;">
+                <img src="assets/gcp cloud.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">GCP Cloud Data Engineer</h5>
+                  <div class="courses-icon">
+                    <i class="bi bi-mortarboard"></i>
+                    <p>Online/On Campus</p>
+                  </div>
+                  <div class="courses-icon">
+                    <i class="bi bi-person-video3"></i>
+                    <p>Industry Curriculum</p>
+                  </div>
+                  <div class="courses-icon">
+                    <i class="bi bi-person-video"></i>
+                    <p>Mock Interviews</p>
+                  </div>
+                  <a href="gcp.html" class="btn btn-primary">View Details</a> 
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-lg-4  col-xxl-3 px-5 pt-5">
+              <div class="card" style="width: 18rem;">
+                <img src="assets/multicloud.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Multi Cloud</h5>
+                  <div class="courses-icon">
+                    <i class="bi bi-mortarboard"></i>
+                    <p>Online/On Campus</p>
+                  </div>
+                  <div class="courses-icon">
+                    <i class="bi bi-person-video3"></i>
+                    <p>Industry Curriculum</p>
+                  </div>
+                  <div class="courses-icon">
+                    <i class="bi bi-person-video"></i>
+                    <p>Mock Interviews</p>
+                  </div>
+                  <a href="multicloud.html" class="btn btn-primary">View Details</a> 
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-lg-4  col-xxl-3 px-5 pt-5">
+              <div class="card" style="width: 18rem;">
+                <img src="assets/fullstack dotnet.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Full Stack DotNet</h5>
+                  <div class="courses-icon">
+                    <i class="bi bi-mortarboard"></i>
+                    <p>Online/On Campus</p>
+                  </div>
+                  <div class="courses-icon">
+                    <i class="bi bi-person-video3"></i>
+                    <p>Industry Curriculum</p>
+                  </div>
+                  <div class="courses-icon">
+                    <i class="bi bi-person-video"></i>
+                    <p>Mock Interviews</p>
+                  </div>
+                  <a href="dotnet.html" class="btn btn-primary">View Details</a> 
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-lg-4  col-xxl-3 px-5 pt-5">
+              <div class="card" style="width: 18rem;">
+                <img src="assets/MERN_Stack.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">MERN Stack</h5>
+                  <div class="courses-icon">
+                    <i class="bi bi-mortarboard"></i>
+                    <p>Online/On Campus</p>
+                  </div>
+                  <div class="courses-icon">
+                    <i class="bi bi-person-video3"></i>
+                    <p>Industry Curriculum</p>
+                  </div>
+                  <div class="courses-icon">
+                    <i class="bi bi-person-video"></i>
+                    <p>Mock Interviews</p>
+                  </div>
+                  <a href="mern.html" class="btn btn-primary">View Details</a> 
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-lg-4  col-xxl-3 px-5 pt-5">
+              <div class="card" style="width: 18rem;">
+                <img src="assets/cyber security.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Cyber Security</h5>
+                  <div class="courses-icon">
+                    <i class="bi bi-mortarboard"></i>
+                    <p>Online/On Campus</p>
+                  </div>
+                  <div class="courses-icon">
+                    <i class="bi bi-person-video3"></i>
+                    <p>Industry Curriculum</p>
+                  </div>
+                  <div class="courses-icon">
+                    <i class="bi bi-person-video"></i>
+                    <p>Mock Interviews</p>
+                  </div>
+                  <a href="cyber.html" class="btn btn-primary">View Details</a> 
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-lg-4  col-xxl-3 px-5 pt-5">
+              <div class="card" style="width: 18rem;">
+                <img src="assets/pyp fullstack.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Python Full Stack</h5>
+                  <div class="courses-icon">
+                    <i class="bi bi-mortarboard"></i>
+                    <p>Online/On Campus</p>
+                  </div>
+                  <div class="courses-icon">
+                    <i class="bi bi-person-video3"></i>
+                    <p>Industry Curriculum</p>
+                  </div>
+                  <div class="courses-icon">
+                    <i class="bi bi-person-video"></i>
+                    <p>Mock Interviews</p>
+                  </div>
+                  <a href="python.html" class="btn btn-primary">View Details</a> 
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-lg-4  col-xxl-3 px-5 pt-5">
+              <div class="card" style="width: 18rem;">
+                <img src="assets/java fullstack.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Java Full Stack</h5>
+                  <div class="courses-icon">
+                    <i class="bi bi-mortarboard"></i>
+                    <p>Online/On Campus</p>
+                  </div>
+                  <div class="courses-icon">
+                    <i class="bi bi-person-video3"></i>
+                    <p>Industry Curriculum</p>
+                  </div>
+                  <div class="courses-icon">
+                    <i class="bi bi-person-video"></i>
+                    <p>Mock Interviews</p>
+                  </div>
+                  <a href="java.html" class="btn btn-primary">View Details</a> 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container pt-5 pb-5 hotcourses">
+      <div class="courses">
+        <div class="row">
+          <h1>Hot Courses</h1>
+          <div class="courses-head ">
+            <div class="col-md-3 col-lg-4 col-xxl-3 px-5 pt-5">
+              <div class="card" style="width: 18rem;">
+                <img src="assets/selenium.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Selenium</h5>
+                  <div class="courses-icon">
+                    <i class="bi bi-mortarboard"></i>
+                    <p>Online/On Campus</p>
+                  </div>
+                  <div class="courses-icon">
+                    <i class="bi bi-person-video3"></i>
+                    <p>Industry Curriculum</p>
+                  </div>
+                  <div class="courses-icon">
+                    <i class="bi bi-person-video"></i>
+                    <p>Mock Interviews</p>
+                  </div>
+                  <a href="selenium.html" class="btn btn-primary">View Details</a> 
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-lg-4 px-5 col-xxl-3 pt-5">
+              <div class="card" style="width: 18rem;">
+                <img src="assets/business analyst.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Business Analyst</h5>
+                  <div class="courses-icon">
+                    <i class="bi bi-mortarboard"></i>
+                    <p>Online/On Campus</p>
+                  </div>
+                  <div class="courses-icon">
+                    <i class="bi bi-person-video3"></i>
+                    <p>Industry Curriculum</p>
+                  </div>
+                  <div class="courses-icon">
+                    <i class="bi bi-person-video"></i>
+                    <p>Mock Interviews</p>
+                  </div>
+                  <a href="BA.html" class="btn btn-primary">View Details</a> 
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-lg-4  col-xxl-3 px-5 pt-5">
+              <div class="card" style="width: 18rem;">
+                <img src="assets/scrum master.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Scrum Master</h5>
+                  <div class="courses-icon">
+                    <i class="bi bi-mortarboard"></i>
+                    <p>Online/On Campus</p>
+                  </div>
+                  <div class="courses-icon">
+                    <i class="bi bi-person-video3"></i>
+                    <p>Industry Curriculum</p>
+                  </div>
+                  <div class="courses-icon">
+                    <i class="bi bi-person-video"></i>
+                    <p>Mock Interviews</p>
+                  </div>
+                  <a href="scrum.html" class="btn btn-primary">View Details</a> 
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-lg-4  col-xxl-3 px-5 pt-5">
+              <div class="card" style="width: 18rem;">
+                <img src="assets/power bi.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Power BI</h5>
+                  <div class="courses-icon">
+                    <i class="bi bi-mortarboard"></i>
+                    <p>Online/On Campus</p>
+                  </div>
+                  <div class="courses-icon">
+                    <i class="bi bi-person-video3"></i>
+                    <p>Industry Curriculum</p>
+                  </div>
+                  <div class="courses-icon">
+                    <i class="bi bi-person-video"></i>
+                    <p>Mock Interviews</p>
+                  </div>
+                  <a href="power.html" class="btn btn-primary">View Details</a> 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container p-5">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="social-icons mb-3">
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-twitter"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-linkedin"></i></a>
+            <a href="#"><i class="bi bi-youtube"></i></a>
+          </div>
+        </div>
+        <div class="col-md-3 mb-3 footer-para">
+          <p><a href="home.html">Home</a></p>
+          <p><a href="courses.html">Courses</a></p>
+          <p><a href="why.html">Why LearnTech?</a></p>
+          <p><a href="kphb.html">Our Branches</a></p>
+          <p><a href="contact.html">Contact Us</a></p>
+          <p><a href="batches.html">Upcoming Batches</a></p>
+        </div>
+        <div class="col-md-3 mb-3 footer-para">
+          <p><a href="privacy.html">Privacy Notice</a></p>
+          <p><a href="pledge.html">Pledges & Credentials</a></p>
+          <p><a href="cookie.html">Cookie Policy</a></p>
+          <p><a href="customer.html">Customer Commitment</a></p>
+        </div>
+        <div class="col-md-3 mb-3 footer-img">
+          <img src="assets/logo.jpg" alt="">
+          <div class="img-para">
+            <p><a href="contact.html">Contact Us</a></p>
+            <p><a href="demo.html">Request Demo</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container text-center" style="color: black; font-size: 14px;">
+      <div class="copyright">
+        <p>LearnTech © All Rights Reserved</p>
+      </div>
+    </section>
+</body>
+</html>

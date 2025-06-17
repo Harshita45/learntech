@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+</head>
+<body>
+    <section class="container-fluid px-5 fixed-top top-head">
+        <nav class="navbar navbar-expand-xl">
+            <a class="navbar-brand navhead" href="home.html">
+                <img src="assets/logo.jpg" alt="" style="width: 250px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarOffcanvasLg" aria-labelledby="navbarOffcanvasLgLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </div>
+                  <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                      <li class="nav-item" >
+                        <a class="nav-link active nav-color" aria-current="page" href="home.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link nav-color" href="courses.html">Courses</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link nav-color" href="why.html">Why LearnTech?</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle nav-color" href="branches.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Our Branches
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item nav-color" href="ameerpet.html">Ameerpet</a></li>
+                          <li><a class="dropdown-item nav-color" href="kphb.html">KPHB Colony</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link nav-color" href="contact.html">Contact Us</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link nav-color" href="batches.html">Upcoming Batches</a>
+                      </li>
+                      <li class="nav-item">
+                        <button class="btn ban-button px-2"><a class="nav-link" href="demo.html">Request Demo</a></button>
+                      </li>
+                    </ul>
+                  </div>
+            </div>
+        </nav>
+    </section>
+    <section class="container-fluid banner">
+        <div class="col-md-6 ban">
+           <div class="ban-ban">
+                <h1>Welcome to <span class="demo">LearnTech</span></h1>
+                <div class="ban-para">
+                  <p>"Unlock Your Coding Potential with Expert Coaching – Learn, Build, and Grow with Personalized Software Courses. Start Today!" .</p>
+                </div>
+                <button class="btn ban-but"><a class="nav-link" href="demo.html">Request Demo</a></button>
+           </div>
+        </div>
+    </section>
+    <section class="container pt-5 pb-5">
+      <div class=" row counter-container">
+        <div class="col-md-4 counter">
+          <h3 data-target="50000" class="count">0</h3>
+          <h6>Students Trained</h6>
+        </div>
+        <div class="col-md-4 counter">
+          <h3 data-target="10000" class="count">0</h3>
+          <h6>Students Placed</h6>
+        </div>
+        <div class="col-md-4 counter">
+          <h3 data-target="1000" class="count">0</h3>
+          <h6>Placement Companies</h6>
+        </div>
+      </div>
+    </section>
+    <section class="about p-5 pt-5">
+      <div class="container">
+        <div class="row align-items-end justify-content-center">
+            <div class="col-lg-6 col-md-6">
+              <div class="about-img">
+                <img src="assets/automation-improves-contact-center_hero-600x378.png" alt="img" data-aos="fade-right" data-aos-delay="200" class="aos-init aos-animate img-fluid">
+              </div>
+            </div>
+            <div class="col-lg-6 mb-45">
+                <div class="abt-sec text-center text-lg-start  tg-heading-subheading animation-style3">
+                    <span class="abt-title">About us</span>
+                </div>
+                <div class="about-para">
+                    <p data-aos="fade-left" class="aos-init aos-animate">At LearnTech, we are dedicated to reshaping the future of education through technology. Our platform is designed to provide learners of all ages and backgrounds with innovative, accessible, and personalized learning experiences. Whether you're a student, educator, or professional, LearnTech empowers you to unlock your potential and achieve your goals in a rapidly changing world.</p>
+                    <p data-aos="fade-right" class="aos-init aos-animate">We believe that education should be an inclusive, lifelong journey—one that adapts to the needs, preferences, and abilities of each learner. By leveraging the latest advancements in digital tools and learning technologies, LearnTech offers a flexible, engaging, and interactive learning environment that fosters curiosity, critical thinking, and skill development.</p>
+                </div>
+            </div>
+        </div>
+      </div>
+    </section>
+    <section class="scale px-5 pt-5 pb-5">
+      <div class="container">
+        <div class="row align-items-end justify-content-center">
+          <div class="col-lg-6 mb-45">
+            <div class="abt-sec text-center text-lg-start  tg-heading-subheading animation-style3">
+                <span class="abt-title">Scale with our coaching platform</span>
+            </div>
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Personalized Learning Paths at Scale
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>Our coaching platform empowers you to create personalized learning journeys for each individual, even when scaling to large groups.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Seamless Collaboration and Engagement
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>With LearnTech, you can maintain meaningful engagement by enabling real-time collaboration, interactive sessions, and peer-to-peer learning opportunities. Whether it's through virtual group coaching, one-on-one mentoring, or discussion forums, the platform fosters an environment where learners can connect, collaborate, and stay motivated, no matter how large your audience grows.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Scalable Content Delivery
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>With LearnTech, scaling your coaching programs also means efficiently managing and delivering content to a large number of learners. Whether you're providing video tutorials, live sessions, or downloadable resources, the platform allows you to deliver content consistently and effectively across all users, regardless of scale.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    Scalable Mentorship Programs
+                  </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>LearnTech’s platform is designed to support large-scale mentorship programs, where experienced mentors can guide multiple mentees simultaneously. With features like mentor matching, mentor-led groups, and tracking tools, scaling mentorship programs becomes easy. </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+            <div class="col-lg-6 col-md-6">
+              <div class="about-img">
+                <img src="assets/scalling.jpg" alt="img" data-aos="fade-left" data-aos-delay="200" class="aos-init aos-animate img-fluid">
+              </div>
+            </div>
+        </div>
+      </div>
+    </section>
+    <div class="container pt-5 px-5 pb-5 programs-card">
+      <h3 class="card-h3">Program Highlights</h3>
+      <div class="row pt-5">
+          <div class="col-md-3 col-lg-6 col-xl-6 col-xxl-3 mb-3">
+            <div class="card text-center mb-3" >
+                <div class="card-header img-head">
+                  <div class="text-center">
+                    <img src="assets/faculty icon.png" class=" lazy img-fluid" alt="...">
+                  </div>
+                </div>
+              <div class="card-body">
+                <h5 class="card-title">Top-Notch<br>
+                  Faculty</h5>
+                <p class="card-text">Trainers at LearnTech are passionate about training, and carry 12+ years of industry experience.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-lg-6 col-xl-6 col-xxl-3 mb-3">
+            <div class="card text-center mb-3" >
+                <div class="card-header img-head">
+                  <div class="text-center">
+                    <img src="assets/assignments icon.png" class=" lazy img-fluid" alt="...">
+                  </div>
+                </div>
+              <div class="card-body">
+                <h5 class="card-title">Assignments and<br>
+                  Coding Challenges</h5>
+                <p class="card-text">Sharpen your skills by engaging in coding contests that involve collaborating with your peers.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-lg-6 col-xl-6 col-xxl-3 mb-3">
+            <div class="card text-center mb-3" >
+                <div class="card-header img-head">
+                  <div class="text-center">
+                    <img src="assets/interviews icon.png" class=" lazy img-fluid" alt="...">
+                  </div>
+                </div>
+              <div class="card-body">
+                <h5 class="card-title">Guaranteed Job Interviews</h5>
+                <p class="card-text">Your placement preparation starts from Day 1 and prepares you for guaranteed job interviews across our 5000+ partner companies until you receive your first job offer.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-lg-6 col-xl-6 col-xxl-3 mb-3">
+            <div class="card text-center mb-3" >
+                <div class="card-header img-head">
+                  <div class="text-center">
+                    <img src="assets/projects icon.png" class=" lazy img-fluid" alt="...">
+                  </div>
+                </div>
+              <div class="card-body">
+                <h5 class="card-title">Real-life Projects<br>
+                  and Bootcamps</h5>
+                <p class="card-text">Learners will work on real-life scenarios from various domains to get application knowledge.</p>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+    </section>
+    <!-- <section class="container p-5 pt-5 pb-5">
+      <div id="myCarousel2" class="carousel slide w-100" data-ride="carousel">
+        <div class="carousel-inner w-100" role="listbox">
+          <div class="carousel-item">
+            <div class="col-lg-3 col-md-6 text-center active">
+              <img class="img-fluid lazy" src="assets/Amazon-Ec2.png" alt="Img1">												
+            </div>
+            <div class="col-lg-3 col-md-6 text-center">
+              <img class="img-fluid lazy" src="assets/Barclays.png" alt="Img2">												
+            </div>
+            <div class="col-lg-3 col-md-6 text-center">
+              <img class="img-fluid lazy" src="assets/Capgemini.png" alt="Img3">												
+            </div>
+            <div class="col-lg-3 col-md-6 text-center">
+              <img class="img-fluid lazy" src="assets/Digi-Sprint.png" alt="Img4">												
+            </div>
+            <div class="col-lg-3 col-md-6 text-center">
+              <img class="img-fluid lazy" src="assets/Dmart.png" alt="Img5">												
+            </div>
+            <div class="col-lg-3 col-md-6 text-center">
+              <img class="img-fluid lazy" src="assets/EY.png" alt="Img6">												
+            </div>
+            <div class="col-lg-3 col-md-6 text-center">
+              <img class="img-fluid lazy" src="assets/Fuji.png" alt="Img7">												
+            </div>
+            <div class="col-lg-3 col-md-6 text-center">
+              <img class="img-fluid lazy" src="assets/HCL.png" alt="Img8">												
+            </div>
+            <div class="col-lg-3 col-md-6 text-center">
+              <img class="img-fluid lazy" src="assets/Hexware.png" alt="Img9">												
+            </div>
+            <div class="col-lg-3 col-md-6 text-center">
+              <img class="img-fluid lazy" src="assets/Mindgate.png" alt="Img10">												
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#myCarousel2" role="button" data-slide="prev">
+          <i class="bi bi-chevron-left"></i></a>
+        <a class="carousel-control-next" href="#myCarousel2" role="button" data-slide="next">
+          <i class="bi bi-chevron-right"></i></a>						
+      </div>
+    </section> -->
+
+    <section class="container p-5">
+      <div class="row">
+        <div class="col-md-6 col-xxl-6 mission">
+          <img src="assets/mission icon.png" alt="">
+          <h3 class="mission-h3">OUR MISSION</h3>
+          <p>At LearnTech, our mission is to revolutionize learning through technology. We are committed to making education accessible, engaging, and personalized for every learner, regardless of their background or location. By harnessing the power of innovative tools, we aim to create a dynamic learning ecosystem that empowers individuals, educators, and organizations to achieve their goals. We focus on delivering high-quality, interactive, and flexible educational experiences that promote lifelong learning, skill development, and career growth.</p>
+        </div>
+        <div class="col-md-6  col-xxl-6 mission">
+          <img src="assets/vision icon.jpg" alt="">
+          <h3 class="mission-h3">OUR VISION</h3>
+          <p>Our vision is to become the global leader in digital education, where technology is used to bridge educational gaps, foster collaboration, and ignite a passion for continuous learning. We envision a world where every learner has the opportunity to thrive, with access to the best educational resources and experiences, tailored to their needs and goals. Through constant innovation and a commitment to accessibility, we aspire to create a future where education empowers individuals to excel in an ever-evolving world.          </p>
+        </div>
+      </div>
+    </section>
+    <div class="container p-5 faq-sec">
+      <h3 class="faq-h3">Frequently Asked Questions</h3>
+      <div class="accordion  w-75 pt-5" id="accordionExample">
+        <div class="accordion-item border-top mb-4">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              1. How do I get started with LearnTech?
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>Getting started is easy! Simply sign up for an account on our website, choose a course or coaching program that interests you, and start learning. If you’re looking to implement LearnTech for your organization, you can schedule a demo with our team to discuss your needs and get set up.</p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item border-top mb-4">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              2. How do I get support if I need help?
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>LearnTech offers comprehensive customer support through multiple channels, including live chat, email, and phone. Additionally, we have an extensive help center with guides, FAQs, and tutorials to assist you with any platform-related questions. If you need assistance, feel free to contact us, and our support team will be happy to help.</p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item border-top mb-4">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              3. Is there a free trial or demo available?
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>Yes, LearnTech offers a free trial period that gives you access to some of our key features and courses. This allows you to explore the platform and see if it fits your learning or coaching needs before committing to a subscription.</p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item border-top mb-4">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              4. How does LearnTech personalize learning?
+            </button>
+          </h2>
+          <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>LearnTech uses adaptive learning technology to tailor learning experiences to each individual’s needs, goals, and progress. This means learners receive content and recommendations based on their learning styles, skills, and areas for improvement, ensuring that each journey is personalized for optimal results.</p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item border-top mb-4">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+              5. What types of courses and coaching programs are offered?
+            </button>
+          </h2>
+          <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>Yes, LearnTech offers a free trial period that gives you access to some of our key features and courses. This allows you to explore the platform and see if it fits your learning or coaching needs before committing to a subscription.</p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item border-top mb-4">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+              6. Do you provide a job guarantee after completion of course?
+            </button>
+          </h2>
+          <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>The courses have designed to make you industry ready in the skill of programming. If you focus on learning, You will get a placed 100%. We will keep assisting you with the latest job postings in top MNCs. We will train you by taking mock interviews etc.</p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item border-top mb-4">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+              7. What skills or education do I require to enroll in the course?
+            </button>
+          </h2>
+          <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>Any student who graduated is eligible to take this course. You don’t need to have any special skills. We will train you from the very beginning.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid p-5 feedback">
+      <div class="board">
+        <h2>Word form our customers</h2>
+        <p>Some of the fullfilled costomers reviews</p>
+        <div class="row">
+          <div class="col-12 col-md-12">
+            <div class="swiper">
+              <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                  <div class="flex">
+                      <div class="comments">
+                        I have attended BI reporting training at LearnTech in the month of August, and it was very effective and a true value for money delivery. I’m already working on Data Warehousing and the BI reporting training has helped me land in a better opportunity. Thank you LearnTech.					
+                      </div>
+                      <div class="profile">
+                          <img src="assets/customer 1.webp" alt="">
+                          <a href="#">Monica Pandey</a>
+                          <span>Student</span>
+                      </div>
+                  </div>
+              </div>
+              <div class="swiper-slide">
+                  <div class="flex">
+                      <div class="comments">
+                        I had participated in an Selenium Online training program from LearnTech recently and the training was so good. LearnTech has a very efficient online lab facility and I was able to practice all my assignments and the support team was very helpful. Ones again thanks for all the support and excellent training.					
+                       </div>
+                      <div class="profile">
+                          <img src="assets/customer 2.webp" alt="">
+                          <a href="#">Sriya Karan</a>
+                          <span>Employee</span>
+                      </div>
+                  </div>
+              </div>
+              <div class="swiper-slide">
+                  <div class="flex">
+                      <div class="comments">
+                        Recently attended classroom training for Data Science with LearnTech. The training was very well structured and the program was delivered in an excellent manner. I must say LearnTech is the Best training institute in town. The Lab facilities at LearnTech is amazing and the training team is also superb.					
+                      </div>
+                      <div class="profile">
+                          <img src="assets/customer 3.webp" alt="">
+                          <a href="#">Shreyas. P</a>
+                          <span>Student</span>
+                      </div>
+                  </div>
+              </div>
+          </div>
+              <div class="swiper-pagination"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="container p-5">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="social-icons mb-3">
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-twitter"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-linkedin"></i></a>
+            <a href="#"><i class="bi bi-youtube"></i></a>
+          </div>
+        </div>
+        <div class="col-md-3 mb-3 footer-para">
+          <p><a href="home.html">Home</a></p>
+          <p><a href="courses.html">Courses</a></p>
+          <p><a href="why.html">Why LearnTech?</a></p>
+          <p><a href="kphb.html">Our Branches</a></p>
+          <p><a href="contact.html">Contact Us</a></p>
+          <p><a href="batches.html">Upcoming Batches</a></p>
+        </div>
+        <div class="col-md-3 mb-3 footer-para">
+          <p><a href="privacy.html">Privacy Notice</a></p>
+          <p><a href="pledge.html">Pledges & Credentials</a></p>
+          <p><a href="cookie.html">Cookie Policy</a></p>
+          <p><a href="customer.html">Customer Commitment</a></p>
+        </div>
+        <div class="col-md-3 mb-3 footer-img">
+          <img src="assets/logo.jpg" alt="">
+          <div class="img-para">
+            <p><a href="contact.html">Contact Us</a></p>
+            <p><a href="demo.html">Request Demo</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container text-center" style="color: black; font-size: 14px;">
+      <div class="copyright">
+        <p>LearnTech © All Rights Reserved</p>
+      </div>
+    </section>
+    <script src="script.js"></script>
+    <script>
+      AOS.init();
+    </script>
+     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+     <script src="./main.js"></script>
+  </body>
+</html>

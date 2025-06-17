@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="ds.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <section class="container-fluid px-5">
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand navhead" href="home.html">
+                <img src="assets/logo.jpg" alt="" style="width: 250px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarOffcanvasLg" aria-labelledby="navbarOffcanvasLgLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </div>
+                  <div class="offcanvas-body pt-2">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                      <li class="nav-item" >
+                        <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="courses.html">Courses</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="why.html">Why LearnTech?</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="branches.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Our Branches
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item nav-color" href="ameerpet.html">Ameerpet</a></li>
+                          <li><a class="dropdown-item nav-color" href="kphb.html">KPHB Colony</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="batches.html">Upcoming Batches</a>
+                      </li>
+                      <li class="nav-item">
+                        <button class="btn btn-primary ban-button"><a class="nav-link" href="demo.html">Request Demo</a></button>
+                      </li>
+                    </ul>
+                  </div>
+            </div>
+        </nav>
+    </section>
+   <div class="about">
+    <section>
+        <div class="about-wrapper pt-5  container-fluid p-5">
+            <div class="row">
+              <div class="about-text col-md-6">
+                <h2>Scrum Master Course Training Certification</h2>
+                <h5>3 Months Job Oriented Intensive & Internship Program</h5>
+                <p>Scrum Master is an important part of the Agile project mainly dealing with the fact that he or she will implement all needed Scrum processes, rules, and methods among the team. To accomplish these responsibilities, you need to enroll in our scrum master training course. In this course, you’ll understand how to lead Agile teams, optimize processes, and produce excellent products. A broad representative of the program of our Scrum master training course lets you develop a detailed and proactive mindset and equip you with all the necessary skills to become a competent Scrum Master for Agile projects.</p>
+              </div>
+              <div class="about-register col-md-6" id="register">
+                <form id="contactForm" action="submit.html" onsubmit="return validate()">
+                  <div class="form-group">
+                      <label for="name">Name</label>
+                      <input type="text" id="name" name="name" placeholder="Your Name" required>
+                      <span class="error-message" id="nameError"></span>
+                  </div>
+                  <div class="form-group">
+                      <label for="email">Email</label>
+                      <input type="email" id="email"  name="email"  placeholder="Your Email" required>
+                      <span class="error-message" id="emailError"></span>
+                  </div>
+                  <div class="form-group">
+                      <label for="phone">Phone</label>
+                      <input type="tel" id="phone" name="phone"  placeholder="Your Phone Number" required>
+                      <span class="error-message" id="phoneError"></span>
+                  </div>
+                  <div class="form-group">
+                    <label for="country">Country</label>
+                    <select id="country" name="country">
+                      <option value="australia">Australia</option>
+                      <option value="canada">Canada</option>
+                      <option value="usa">India</option>
+                      <option value="usa">South Africa</option>
+                      <option value="usa">USA</option>
+                  </select>
+                  </div>
+                  <div class="form-group">
+                    <button type="submit" class="btn submit-button">Request Demo</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+   </div>
+    <section class="about-ds container">
+        <div class="about-wrapper pt-5  container-fluid p-5">
+            <div class="row">
+              <div class="about-text col-md-8">
+                    <h2>Scrum Master Overview</h2>
+                    <p>At LearnTech, we have an extensive scrum master course that embraces all testing the domains as well as certification. Our courses are accurate counterparts to the standard industry certifications, thus guaranteeing that our students master the most in-demand skills in the sphere of scrum master.</p>
+                    <h2 class="about-text-h2">KEY HIGHLIGHTS</h2>
+                    <div class="ds-highlights pt-3">
+                        <div class="ds-icons">
+                            <img src="assets/fundamentals.jpg" alt="">
+                            <div class="ds-info">
+                                <p class="ds-para">Comprehensive Scrum Master Fundamentals</p>
+                                <p> Acquire a strong understanding of basic and advanced concepts of Scrum Master and the market.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ds-highlights pt-3">
+                        <div class="ds-icons">
+                            <img src="assets/real world.jpg" alt="">
+                            <div class="ds-info">
+                                <p class="ds-para">Real-World Project Experience</p>
+                                <p>Gained insights for Scrum Master positions for practical projects by solving exercises and simulations.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ds-highlights pt-3">
+                        <div class="ds-icons">
+                            <img src="assets/collaborative.jpg" alt="">
+                            <div class="ds-info">
+                                <p class="ds-para">Collaborative Learning Environment</p>
+                                <p>Participate in group discussions and group work assignments to improve on interpersonal communication and team-building information processing competencies.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ds-highlights pt-3">
+                        <div class="ds-icons">
+                            <img src="assets/case study.jpg" alt="">
+                            <div class="ds-info">
+                                <p class="ds-para">Industry-Relevant Case Studies</p>
+                                <p>Explore numerous real-life examples from various industries to realize the difficulties of working as scrum masters and their potential solutions.</p>
+                            </div>
+                        </div>
+                    </div>
+              </div>
+              <div class="about-register col-md-4">
+                <div class="card" style="width: 22rem;">
+                  <img src="assets/training ds.webp" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Comprehensive Training</h5>
+                    <div class="ds-text">
+                      <i class="bi bi-hand-thumbs-up"></i>
+                      <p>2 Hours Training</p>
+                    </div>
+                    <div class="ds-text">
+                      <i class="bi bi-person"></i>
+                      <p>Industry Curriculum</p>
+                    </div>
+                    <div class="ds-text">
+                      <i class="bi bi-person-video"></i>
+                      <p>Mock Interviews</p>
+                    </div>
+                    <div class="ds-text">
+                      <i class="bi bi-book"></i>
+                      <p>Learn from the Practitioner</p>
+                    </div>
+                    <div class="ds-text">
+                      <i class="bi bi-globe2"></i>
+                      <p>
+                        Experimentation Learning</p>
+                    </div>
+                    <div class="ds-text">
+                      <i class="bi bi-stars"></i>
+                      <p>Professional Certification</p>
+                    </div>
+                    <div class="ds-text">
+                      <i class="bi bi-cash-stack"></i>
+                      <p>
+                        Education Loan</p>
+                    </div>
+                    <div class="ds-text">
+                      <i class="bi bi-people"></i>
+                      <p>Experience Industry Faculty</p>
+                    </div>
+                    <div class="ds-text">
+                      <i class="bi bi-bar-chart"></i>
+                      <p>
+                        Dedicated Placement Team</p>
+                    </div>
+                    <a href="#register" class="btn btn-color">Register</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+    <div class="pre-sec">
+      <section class="container p-5">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="pre-req pt-3">
+                        <h2>Pre Requisites</h2>
+                        <p>Noteworthy knowledge of Agile principles and processes.</p>
+                        <p>CSM certification or any other accreditation equivalent to CSM.</p>
+                        <p>Having worked in a Scrum team or any other Agile organization.</p>
+                        <p>Good communication and facilitation skills.</p>
+                        <p>Leadership skills to influence, encourage, and get other workers on board.</p>
+                        <p>Awareness of the Scrum framework, roles, artifacts, and ceremonies.</p>
+                        <p>Awareness of the use of Agile tools and other software for the management of a project.</p>
+                        <p>Readiness to enhance self’s understanding and applications of Agile practices and principles infinitely.</p>
+                        <p>Collaborative and team-oriented mindset.</p>
+                        <p>People management and problem-solving skills.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="container p-5 curriculum-sec">
+      <div class="accordion w-75" id="accordionExample">
+        <h1 class="pb-4" style="text-align: center;">Course Curriculum</h1>
+        <div class="accordion-item mb-4">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                01: SDLC Overview
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                <p>SDLC Phases</p>
+                <p>SDLC Approaches</p>
+                <p>SDLC Models</p>
+                <p>SDLC Deliverables</p>
+                <p>Traditional Software Development</p>
+                <p>Waterfall Model</p>
+                <p>V Model</p>                
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item border-top mb-4">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                02: Agile Manifesto & Principles
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                <p>Customer Satisfaction</p>
+                <p>Changing Requirements</p>
+                <p>Deliver Working Software Frequently</p>
+                <p>Individuals and Interaction</p>
+                <p>Working Software</p>
+                <p>Customer Collaboration</p>
+                <p>Responding to Change</p>
+                <p>Self Management</p>
+                <p>Cross Functional</p>                
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item border-top mb-4">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                03: Understanding and Applying Scrum
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                <p>The Three Pillars of Empiricism</p>
+                <p>Inspection, Adaptation, Transparency</p>
+                <p>Scrum Values</p>
+                <p>Courage</p>
+                <p>Commitment</p>
+                <p>Focus</p>
+                <p>Openness</p>
+                <p>Respect</p>
+                <p>Scrum Team Responsibilities</p>
+                <p>Scrum Master Responsibilities Day Wise</p>
+                <p>Product Owner Responsibilities Day Wise</p>
+                <p>Scrum Team Responsibilities Day Wise</p>                
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item border-top mb-4">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                04: Scrum Cermonies workshop & Sprint Planning
+            </button>
+          </h2>
+          <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                <p>Sprint Planning</p>
+                <p>Sprint Work Distribution</p>
+                <p>Capacity Management Template</p>
+                <p>Sprint Goal</p>
+                <p>Sprint Plan</p>
+                <p>JIRA Configurations to Support Sprint Planning</p>
+                <p>Challenges Faced During Sprint Planning</p>
+                <p>Best Practices to be Followed During Sprint Planning</p>
+                <p>Sprint Planning Template</p>                
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item border-top mb-4">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+              05: Sprint Estimations
+            </button>
+          </h2>
+          <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                <p>Estimation Methods - T-shirt Sizing, Story Points, Person Days</p>
+                <p>Planning Poker Technique</p>
+                <p>Velocity</p>
+                <p>Scrum Ceremonies Continuation</p>                
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item border-top mb-4">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+              06: Daily Scrum
+            </button>
+          </h2>
+          <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                <p>Story Board Updates</p>
+                <p>Configuring JIRA Story Board</p>
+                <p>Identifying Blockers - Impediments Trackers</p>
+                <p>Daily Scrum - 10 Days Simulations</p>
+                <p>Best Practices to be Followed in Daily Stand Up</p>
+                <p>Challenges Faced During Daily Standup</p>                
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item border-top mb-4" >
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+              07: Sprint Review Meeting
+            </button>
+          </h2>
+          <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                <p>Sprint Review Purpose</p>
+                <p>Sprint Review Template</p>
+                <p>Sprint Review Example</p>
+                <p>Best Practices to be Followed During Sprint Review</p>
+                <p>Challenges Faced During Sprint Review</p>                
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="container p-5">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="social-icons mb-3">
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-twitter"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-linkedin"></i></a>
+            <a href="#"><i class="bi bi-youtube"></i></a>
+          </div>
+        </div>
+        <div class="col-md-3 mb-3 footer-para">
+          <p><a href="home.html">Home</a></p>
+          <p><a href="courses.html">Courses</a></p>
+          <p><a href="why.html">Why LearnTech?</a></p>
+          <p><a href="kphb.html">Our Branches</a></p>
+          <p><a href="contact.html">Contact Us</a></p>
+          <p><a href="batches.html">Upcoming Batches</a></p>
+        </div>
+        <div class="col-md-3 mb-3 footer-para">
+          <p><a href="privacy.html">Privacy Notice</a></p>
+          <p><a href="pledge.html">Pledges & Credentials</a></p>
+          <p><a href="cookie.html">Cookie Policy</a></p>
+          <p><a href="customer.html">Customer Commitment</a></p>
+        </div>
+        <div class="col-md-3 mb-3 footer-img">
+          <img src="assets/logo.jpg" alt="">
+          <div class="img-para">
+            <p><a href="contact.html">Contact Us</a></p>
+            <p><a href="demo.html">Request Demo</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container text-center" style="color: black; font-size: 14px;">
+      <div class="copyright">
+        <p>LearnTech © All Rights Reserved</p>
+      </div>
+    </section>
+    <script src="demo.js"></script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+ol{
+    list-style: none;
+}
+.form__demo li{
+    align-items: center;
+    display: flex;
+    gap: 0.8rem;
+    justify-content: flex-start;
+    margin-bottom: 0.6rem;
+}
+.about{
+    background-color: #f4f4f4; 
+    color: #616161;
+}
+.about-text h1{
+  padding-left: 30px;
+}
+.form-group {
+  margin-bottom: 1rem;
+  margin-left: 50px;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+input, textarea , select{
+  width: 90%;
+  padding: 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.875rem;
+  display: none;
+}
+
+.submit-button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 150px;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #2E7D32;
+  color: white;
+}

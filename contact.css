@@ -1,0 +1,63 @@
+.contactus{
+    background-image: url(assets/contact.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+.main-banner{
+    animation-name:slideInLeft;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+.contact-para{
+    text-align: center;
+    text-transform: capitalize;
+    color: black;
+}
+.contact-para h3{
+    font-size: 30px;
+    font-weight: 900;
+}
+.contact-form{
+    margin-top: 80px;
+}
+.submit-button{
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 150px;
+    transition: background-color 0.3s;
+}
+.submit-button:hover{
+    background-color: #2E7D32;
+    color: white;
+}
+.contact-banner{
+    margin-top: 0;
+}
+.contact-banner img{
+    width: 380px;
+    padding-right: 120px;
+}
+.icons-sec{
+    margin-top: 30px;
+    background-color: #F4F4F4;
+}
+.address{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.address svg{
+    margin-bottom: 20px;
+}
+.mobile{
+    margin-bottom: 5px;
+}

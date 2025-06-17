@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="ds.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <section class="container-fluid px-5">
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand navhead" href="home.html">
+                <img src="assets/logo.jpg" alt="" style="width: 250px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarOffcanvasLg" aria-labelledby="navbarOffcanvasLgLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </div>
+                  <div class="offcanvas-body pt-2">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                      <li class="nav-item" >
+                        <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="courses.html">Courses</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="why.html">Why LearnTech?</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="branches.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Our Branches
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item nav-color" href="ameerpet.html">Ameerpet</a></li>
+                          <li><a class="dropdown-item nav-color" href="kphb.html">KPHB Colony</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="batches.html">Upcoming Batches</a>
+                      </li>
+                      <li class="nav-item">
+                        <button class="btn btn-primary ban-button"><a class="nav-link" href="demo.html">Request Demo</a></button>
+                      </li>
+                    </ul>
+                  </div>
+            </div>
+        </nav>
+    </section>
+   <div class="about">
+    <section>
+        <div class="about-wrapper pt-5  container-fluid p-5">
+            <div class="row">
+              <div class="about-text col-md-6">
+                <h2>Selenium with C# Training Course</h2>
+                <h5>Job Oriented Intensive Program</h5>
+                <p>Unlock the full potential of automation with our Selenium with C# Training Course! Selenium, a super strong open-source tool, powers up web applications. Pair it with C#, a robust programming language, and you’ve got an unbeatable combo for testers & developers alike. Learn to make smooth and efficient test scripts. Drive complex web apps without fuss. Selenium with C# Training Course gives you hands-on practice, personal guidance, & real projects to master automation testing with Selenium and C#. Boost your career with the cutting-edge skills you need to succeed!</p>
+              </div>
+              <div class="about-register col-md-6" id="register">
+                <form id="contactForm" action="submit.html" onsubmit="return validate()">
+                  <div class="form-group">
+                      <label for="name">Name</label>
+                      <input type="text" id="name" name="name" placeholder="Your Name" required>
+                      <span class="error-message" id="nameError"></span>
+                  </div>
+                  <div class="form-group">
+                      <label for="email">Email</label>
+                      <input type="email" id="email"  name="email"  placeholder="Your Email" required>
+                      <span class="error-message" id="emailError"></span>
+                  </div>
+                  <div class="form-group">
+                      <label for="phone">Phone</label>
+                      <input type="tel" id="phone" name="phone"  placeholder="Your Phone Number" required>
+                      <span class="error-message" id="phoneError"></span>
+                  </div>
+                  <div class="form-group">
+                    <label for="country">Country</label>
+                    <select id="country" name="country">
+                      <option value="australia">Australia</option>
+                      <option value="canada">Canada</option>
+                      <option value="usa">India</option>
+                      <option value="usa">South Africa</option>
+                      <option value="usa">USA</option>
+                  </select>
+                  </div>
+                  <div class="form-group">
+                    <button type="submit" class="btn submit-button">Request Demo</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+   </div>
+    <section class="about-ds container">
+        <div class="about-wrapper pt-5  container-fluid p-5">
+            <div class="row">
+              <div class="about-text col-md-8">
+                    <h2>Selenium with C# Training Course</h2>
+                    <p>If you want to learn and be skilled in software testing, try an interactive Selenium with C# course at LearnTech, designed specifically for you. Our program combines both the automated and manual to ensure that a student acquires a central perspective of testing that is crucial in the current market.</p>
+                    <h2 class="about-text-h2">KEY HIGHLIGHTS</h2>
+                    <div class="ds-highlights pt-3">
+                        <div class="ds-icons">
+                            <img src="assets/fundamentals.jpg" alt="">
+                            <div class="ds-info">
+                                <p class="ds-para">Comprehensive Selenium With C# Fundamentals</p>
+                                <p>Make sure that you have excellent basics on selenium using C#. Learn about the principles, techniques and standard practices that are practiced in the industry.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ds-highlights pt-3">
+                        <div class="ds-icons">
+                            <img src="assets/real world.jpg" alt="">
+                            <div class="ds-info">
+                                <p class="ds-para">Real-World Project Experience</p>
+                                <p>Learn selenium with c# concepts for real world projects through practical exercises and real life scenarios.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ds-highlights pt-3">
+                        <div class="ds-icons">
+                            <img src="assets/collaborative.jpg" alt="">
+                            <div class="ds-info">
+                                <p class="ds-para">Collaborative Learning Environment</p>
+                                <p>Engage in group discussions & activities for grouped assignments in order to excel in teamwork & problem solving.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ds-highlights pt-3">
+                        <div class="ds-icons">
+                            <img src="assets/case study.jpg" alt="">
+                            <div class="ds-info">
+                                <p class="ds-para">Industry-Relevant Case Studies</p>
+                                <p>Go case studies on implementations that exemplify the active dealing with Selenium particularly with C#.</p>
+                            </div>
+                        </div>
+                    </div>
+              </div>
+              <div class="about-register col-md-4">
+                <div class="card" style="width: 22rem;">
+                  <img src="assets/training ds.webp" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Comprehensive Training</h5>
+                    <div class="ds-text">
+                      <i class="bi bi-hand-thumbs-up"></i>
+                      <p>2 Hours Training</p>
+                    </div>
+                    <div class="ds-text">
+                      <i class="bi bi-person"></i>
+                      <p>Industry Curriculum</p>
+                    </div>
+                    <div class="ds-text">
+                      <i class="bi bi-person-video"></i>
+                      <p>Mock Interviews</p>
+                    </div>
+                    <div class="ds-text">
+                      <i class="bi bi-book"></i>
+                      <p>Learn from the Practitioner</p>
+                    </div>
+                    <div class="ds-text">
+                      <i class="bi bi-globe2"></i>
+                      <p>
+                        Experimentation Learning</p>
+                    </div>
+                    <div class="ds-text">
+                      <i class="bi bi-stars"></i>
+                      <p>Professional Certification</p>
+                    </div>
+                    <div class="ds-text">
+                      <i class="bi bi-cash-stack"></i>
+                      <p>
+                        Education Loan</p>
+                    </div>
+                    <div class="ds-text">
+                      <i class="bi bi-people"></i>
+                      <p>Experience Industry Faculty</p>
+                    </div>
+                    <div class="ds-text">
+                      <i class="bi bi-bar-chart"></i>
+                      <p>
+                        Dedicated Placement Team</p>
+                    </div>
+                    <a href="#register" class="btn btn-color">Register</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+    <div class="pre-sec">
+      <section class="container p-5">
+        <div class="pre-req pt-3">
+          <h2>Pre Requisites</h2>
+          <p>This course is suitable for everyone. You only need basic computer knowledge and some hands-on experience with simple applications. Even if you don’t have a programming background but love to understand programming & data management, you can join this program too.</p>
+        </div>
+      </section>
+    </div>
+    <div class="container p-5 curriculum-sec">
+      <div class="accordion w-75" id="accordionExample">
+        <h1 class="pb-4" style="text-align: center;">Course Curriculum</h1>
+        <div class="accordion-item mb-4">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                01: What is C#?
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                <p>Features of C#</p>
+                <p>Advantages of Using C#</p>
+                <p>How to Use C#</p>
+                <p>What is Visual Studio</p>
+                <p>Install Visual Studio</p>
+                <p>What is a Compiler</p>
+                <p>How Compilation Process Goes</p>
+                <p>What is an Assembly File</p>
+                <p>What is a Solution File</p>
+                <p>Creating the First Project in C# in Visual Studio</p>                
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item border-top mb-4">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                02: Module2: C# Programming
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                <p>Creating the First C# Program</p>
+                <p>What is Syntax</p>
+                <p>What is a Class</p>
+                <p>What is a Namespace</p>
+                <p>How C# Program Can Be Executed</p>
+                <p>What is the Main Method</p>
+                <p>What is a Method?</p>
+                <p>Types of Methods</p>
+                <p>Instance Method</p>
+                <p>Static Method</p>
+                <p>Identifiers</p>
+                <p>Take User Input</p>
+                <p>How to Use Operators</p>
+                <p>Statements</p>
+                <p>Type Casting</p>
+                <p>Types of Casting</p>
+                <p>Upcasting</p>
+                <p>Downcasting</p>
+                <p>Method Parameters</p>
+                <p>Passing Arguments</p>
+                <p>What is an Object</p>
+                <p>Purpose of Object Creation</p>
+                <p>How to Create an Object</p>
+                <p>What is Static</p>
+                <p>Importance of Static</p>
+                <p>What is a Constructor</p>
+                <p>Types of Constructor</p>
+                <p>Constructor Chaining</p>
+                <p>Practical Usage of Constructor</p>
+                <p>Assigning Local Variables to Instance Variables</p>
+                <p>Getter and Setters</p>
+                <p>Properties in C#</p>
+                <p>String Class in C#</p>                
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item border-top mb-4">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                03: Oops Concepts in C#
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                <p>Class</p>
+                <p>Object</p>
+                <p>Encapsulation</p>
+                <p>Inheritance</p>
+                <p>Types of Inheritance</p>
+                <p>Single Level Inheritance</p>
+                <p>Multi-level Inheritance</p>
+                <p>Hierarchical Inheritance</p>
+                <p>Polymorphism</p>
+                <p>Types of Polymorphism</p>
+                <p>Static or Compile Time Polymorphism</p>
+                <p>Dynamic Polymorphism or Runtime Polymorphism</p>
+                <p>Abstraction</p>
+                <p>Interfaces</p>
+                <p>Types of Interfaces in C#</p>
+                <p>Difference Between Abstract Class and Interface</p>
+                <p>Exception Handling</p>
+                <p>Collections</p>                
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item border-top mb-4">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                04: Selenium
+            </button>
+          </h2>
+          <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                <p>Links</p>
+                <p>Radio Buttons, Checkboxes, Radio Buttons, Images, Dropdowns</p>
+                <p>Frames, Window Handles</p>
+                <p>Frameworks</p>
+                <p>NUnit</p>
+                <p>Data Driven Framework</p>
+                <p>Page Object Model</p>
+                <p>Hybrid Framework</p>
+                <p>SpecFlow</p>
+                <p>API Testing Using Postman</p>                
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="container p-5">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="social-icons mb-3">
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-twitter"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-linkedin"></i></a>
+            <a href="#"><i class="bi bi-youtube"></i></a>
+          </div>
+        </div>
+        <div class="col-md-3 mb-3 footer-para">
+          <p><a href="home.html">Home</a></p>
+          <p><a href="courses.html">Courses</a></p>
+          <p><a href="why.html">Why LearnTech?</a></p>
+          <p><a href="kphb.html">Our Branches</a></p>
+          <p><a href="contact.html">Contact Us</a></p>
+          <p><a href="batches.html">Upcoming Batches</a></p>
+        </div>
+        <div class="col-md-3 mb-3 footer-para">
+          <p><a href="privacy.html">Privacy Notice</a></p>
+          <p><a href="pledge.html">Pledges & Credentials</a></p>
+          <p><a href="cookie.html">Cookie Policy</a></p>
+          <p><a href="customer.html">Customer Commitment</a></p>
+        </div>
+        <div class="col-md-3 mb-3 footer-img">
+          <img src="assets/logo.jpg" alt="">
+          <div class="img-para">
+            <p><a href="contact.html">Contact Us</a></p>
+            <p><a href="demo.html">Request Demo</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container text-center" style="color: black; font-size: 14px;">
+      <div class="copyright">
+        <p>LearnTech © All Rights Reserved</p>
+      </div>
+    </section>
+    <script src="demo.js"></script>
+</body>
+</html>

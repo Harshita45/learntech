@@ -1,0 +1,16 @@
+.privacy-container ul li {
+    line-height: 30px;
+}
+.privacy-container{
+    background-color: #f4f4f4;
+}
+.privacy-h3{
+    display: block;
+    font-size: 32px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    padding-left: 30px;
+    margin-bottom: 40px;
+}
